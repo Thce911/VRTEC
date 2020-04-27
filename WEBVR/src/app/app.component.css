@@ -1,18 +1,21 @@
 
+.column{
+  height: 63%;
+  display: inline-block;
+  margin: 0 auto -50px;
+  margin-top: 10px;
+}
 
-.test {
-    display: inline-block;
-    scroll-behavior: inherit;
-    
+.row{
+  padding: 40px;
 }
 
 .card {
-    width: 200px;
-    height: auto;
-    margin: 20px;
-    position: relative;
-    border: 1px;
+  width: 200px;
+  margin: 0, auto;
 }
+
+
 
 /* Float */
 .float {

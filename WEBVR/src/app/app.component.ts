@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {spaces} from './spaces'
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

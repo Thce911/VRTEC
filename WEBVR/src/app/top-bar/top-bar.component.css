@@ -1,0 +1,40 @@
+.top-bar{
+  width: 100%;
+  padding-top: 4%;
+  padding-left: 2%;
+  height: 200px;
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+
+.mute{
+  margin-top: 180px;
+}
+
+.mute:hover{
+  background-color: aqua;
+}
+
+.header{
+  width: 50%;
+}
+
+
+
+
+
+#logo{
+    -webkit-animation: rotation 20s infinite linear;
+  }
+  
+  @-webkit-keyframes rotation {
+    from{
+      -webkit-transform: rotate(0deg);
+    }
+    to{
+      -webkit-transform: rotate(359deg);
+    }
+  }
+  
