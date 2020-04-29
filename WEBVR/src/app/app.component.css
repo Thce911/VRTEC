@@ -1,24 +1,17 @@
-
-.column{
-  height: 63%;
-  display: inline-block;
-  margin: 0 auto -50px;
-  margin-top: 10px;
+.card{
+  width: 280px;
 }
 
-.row{
-  padding: 40px;
-}
-
-.card {
-  width: 200px;
-  margin: 0, auto;
+.swiper-wrapper{
+  padding-top: 2%;
+  height: 550px;
+  align-content: center;
 }
 
 
-
-/* Float */
-.float {
+/* 
+.card{
+    max-width: 280px;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -31,7 +24,7 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-  .float:hover, .float:focus, .float:active {
+  .card:hover, .float:focus, .float:active {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
-  }
+  }*/
