@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "webvr-25f1e"
+  },
+  "targets": {
+    "webvr-25f1e": {
+      "hosting": {
+        "WEBVR": [
+          "webvr-25f1e"
+        ]
+      }
+    }
   }
 }

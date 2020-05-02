@@ -8,12 +8,15 @@ import {MaterialModule} from './material.module';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SwModule } from './swiper.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
+    
   ],
   imports: [
     BrowserModule,
