@@ -1,18 +1,37 @@
 .content{
   max-width: 100%;
-  height: 90%;
+  height: 85%;
   z-index: 1;
 }
 
 .swiper-wrapper{
-    padding-top: 5%;
-    height: auto;
-    padding-bottom: 5%;
+    margin-top: 5%;
+    height: 80%;
+    margin-bottom: 5%;
   }
   
   .card{
+    margin-top: 15%;
     background: inherit;
     background-color: #131415;
     opacity: .9;
     color: ivory;
   }
+  .text{
+    width: 90%;
+    padding: .5rem;
+    height: 120px;
+    font-style: normal;
+    overflow-y: auto;
+    text-align: justify;
+  }
+
+  @media only screen and (width: 812px){
+    #hide{
+      display: none;
+    }
+    .content{height: 100%}
+    .card{margin-top: auto}
+    .swiper-wrapper{margin-top: auto; height: auto; margin-bottom: auto;}
+    .title{font-size: medium;}
+    }

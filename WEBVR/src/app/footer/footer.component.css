@@ -1,19 +1,45 @@
+
 .footer{
+    margin-top: 180px;
     height: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: #06207C;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     color: #FFFF;
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1;
+    -webkit-animation: color-change-2x 20s linear infinite alternate both;
+    animation: color-change-2x 4s linear infinite alternate both;
+}
+
+
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #06207c;
+  }
+  100% {
+    background: #b22cff;
+  }
 }
 
 .tec{
-  position: sticky;
-  bottom: 0;
-  max-width: 15%;
+  padding: 1rem;
+  width: 50%;
   height: auto;
 }
+
+@media only screen and (width: 812px){
+  .footer{display: none;}
+}
+
