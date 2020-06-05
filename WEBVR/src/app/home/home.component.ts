@@ -31,8 +31,12 @@ export class HomeComponent implements OnInit {
         slidesPerView: 3,
         spaceBetween: 30
       },
+      '@1.5': {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
       // when window width is >= 640px
-      '@1.50': {
+      '@2.0': {
         slidesPerView: 4,
         spaceBetween: 30
       }

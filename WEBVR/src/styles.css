@@ -1,3 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; margin: 0; overflow: hidden;  font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #02000D;}
+html, body { height: auto; margin: 0; overflow: hidden;  font-family: Roboto, "Helvetica Neue", sans-serif; background-image: url('assets/bg.jpg');  background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;}
+
+@media only screen and (width: 640px){
+    #hide{
+      display: none;
+    }
+    .title{
+        
+    }
+
+  }
+
+
+@media only screen and (width: 360px){
+    .text{
+      display: none;
+    }
+}

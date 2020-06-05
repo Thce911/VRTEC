@@ -1,7 +1,7 @@
 .top-bar {
   width: 100%;
   padding-top: 1rem;
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: space-around;
   background-color: inherit;
@@ -9,13 +9,9 @@
   position: -webkit-sticky;
   top: 0;
 }
-.top-bar::after {
-  background: inherit; 
-  position: absolute;
-}
 
 .logo {
-  width: 50%;
+  width: 200px;
   height: auto;
 }
 
